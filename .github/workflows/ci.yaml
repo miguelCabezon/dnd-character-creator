@@ -1,0 +1,25 @@
+name: Next.js CI
+on:
+  push:
+    branches: [main]
+  pull_requst:
+    branches: [main]
+jobs:
+  calidad-codigo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+      - name: Configurar entorno de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm' # cambiar a pnpm cuando empiece a usarlo
+      - name: Instalar dependencias
+        run: npm ci
+      - name: 1. Ejecutar Linter
+        run: npm run lint
+      - name: 2. Verificar tipos (typecheck)
+        run: npm run typecheck
+      - name: 3. Ejecutar Pruebas (tests)
+        run: npm run test
