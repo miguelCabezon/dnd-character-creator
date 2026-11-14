@@ -1,0 +1,40 @@
+{
+    "id": "cleric",
+    "name": "Clérigo",
+    "hitDice": 8,
+    "primaryAbilities": ["wisdom"],
+    "savingThrows": ["wisdom", "charisma"],
+    "skillChoices": {
+        "choose": 2,
+        "from": ["history", "insight", "medicine", "persuasion", "religion"]
+    },
+    "weaponProficiencies": ["simpleWeapons"],
+    "armorProficiencies": ["lightArmor", "mediumArmor", "shields"],
+    "subclassLevel": 1,
+    "subclasses": [
+        {
+            "id": "lifeDomain",
+            "name": "Dominio de la Vida"
+        },
+        {
+            "id": "lightDomain",
+            "name": "Dominio de la Luz"
+        },
+        {
+            "id": "natureDomain",
+            "name": "Dominio de la Naturaleza"
+        },
+        {
+            "id": "tempestDomain",
+            "name": "Dominio de la Tormenta"
+        },
+        {
+            "id": "trickeryDomain",
+            "name": "Dominio del Engaño"
+        },
+        {
+            "id": "warDomain",
+            "name": "Dominio de la Guerra"
+        }
+    ]
+}

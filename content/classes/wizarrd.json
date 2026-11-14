@@ -1,0 +1,20 @@
+{
+    "id": "wizard",
+    "name": "Mago",
+    "hitDice": 6,
+    "primaryAbilities": ["intelligence"],
+    "savingThrows": ["intelligence", "wisdom"],
+    "skillChoices": {
+        "choose": 2,
+        "from": ["arcana", "history", "investigation", "medicine", "religion"]
+    },
+    "weaponProficiencies": ["simpleWeapons"],
+    "armorProficiencies": [],
+    "subclassLevel": 1,
+    "subclasses": [
+        {
+            "id": "schoolOfMagic",
+            "name": "Escuela de Magia"
+        }
+    ]
+}

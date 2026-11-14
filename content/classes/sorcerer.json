@@ -1,0 +1,24 @@
+{
+    "id": "sorcerer",
+    "name": "Hechicero",
+    "hitDice": 6,
+    "primaryAbilities": ["charisma"],
+    "savingThrows": ["constitution", "charisma"],
+    "skillChoices": {
+        "choose": 2,
+        "from": ["arcana", "deception", "insight", "intimidation", "persuasion", "religion"]
+    },
+    "weaponProficiencies": ["simpleWeapons"],
+    "armorProficiencies": [],
+    "subclassLevel": 1,
+    "subclasses": [
+        {
+            "id": "draconicBloodline",
+            "name": "Linaje Dracónico"
+        },
+        {
+            "id": "wildMagic",
+            "name": "Magia Salvaje"
+        }
+    ]
+}

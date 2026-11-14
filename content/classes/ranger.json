@@ -1,0 +1,24 @@
+{
+    "id": "ranger",
+    "name": "Explorador",
+    "hitDice": 10,
+    "primaryAbilities": ["dexterity", "wisdom"],
+    "savingThrows": ["strength", "dexterity"],
+    "skillChoices": {   
+        "choose": 3,
+        "from": ["animalHandling", "athletics", "insight", "investigation", "nature", "perception", "stealth", "survival"]
+    },
+    "weaponProficiencies": ["simpleWeapons", "martialWeapons"],
+    "armorProficiencies": ["lightArmor", "mediumArmor", "shields"],
+    "subclassLevel": 3,
+    "subclasses": [
+        {
+            "id": "beastMaster",
+            "name": "Maestro de Bestias"
+        },
+        {
+            "id": "hunter",
+            "name": "Cazador"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "fighter",
+    "name": "Guerrero",
+    "hitDice": 10,
+    "primaryAbilities": ["strength", "dexterity"],
+    "savingThrows": ["strength", "constitution"],
+    "skillChoices": {
+        "choose": 2,
+        "from": ["athletics", "acrobatics", "history", "insight", "intimidation", "perception", "survival", "animalHandling"]
+    },
+    "weaponProficiencies": ["simpleWeapons", "martialWeapons"],
+    "armorProficiencies": ["lightArmor", "mediumArmor", "heavyArmor", "shields"],
+    "subclassLevel": 3,
+    "subclasses": [
+        {
+            "id": "champion",
+            "name": "Campeón"
+        },
+        {
+            "id": "battleMaster",
+            "name": "Maestro del Combate"
+        },
+        {
+            "id": "eldritchKnight",
+            "name": "Caballero Arcano"
+        },
+        {
+            "id": "psionicWarrior",
+            "name": "Guerrero Psiónico"
+        }
+    ]
+}

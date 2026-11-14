@@ -1,0 +1,32 @@
+{
+    "id": "barbarian",
+    "name": "Bárbaro",
+    "hitDice": 12,
+    "primaryAbilities": ["strength"],
+    "savingThrows": ["strength", "constitution"],
+    "skillChoices": {
+        "choose": 2,
+        "from": ["athletics", "intimidation", "perception", "survival", "animalHandling"]
+    },
+    "weaponProficiencies": ["simpleWeapons", "martialWeapons"],
+    "armorProficiencies": ["lightArmor", "mediumArmor", "shields"],
+    "subclassLevel": 3,
+    "subclasses": [
+        {
+            "id": "berserker",
+            "name": "Furioso"
+        },
+        {
+            "id": "worldTree",
+            "name": "Árbol del Mundo"
+        },
+        {
+            "id": "wildHeart",
+            "name": "Corazón Salvaje"
+        },
+        {
+            "id": "zealot",
+            "name": "Fanático"
+        }
+    ]
+}
